@@ -1,42 +1,135 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
 <meta charset="UTF-8">
-<title>$ound Together</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>$oundTogether</title>
 
 <style>
-body {
-  background: black;
-  color: white;
-  text-align: center;
-  font-family: Arial, sans-serif;
-  margin-top: 120px;
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#0b0b0f;
+color:white;
+text-align:center;
 }
 
-img {
-  width: 250px;
-  margin-bottom: 30px;
+header{
+padding:40px 20px 10px;
 }
 
-h1 {
-  font-size: 42px;
-  letter-spacing: 2px;
+header img{
+width:140px;
 }
 
-p {
-  color: gray;
-  font-size: 20px;
+.hero{
+padding:80px 20px;
+}
+
+h1{
+font-size:48px;
+margin-bottom:20px;
+background:linear-gradient(90deg,#7b5cff,#00d4ff);
+-webkit-background-clip:text;
+color:transparent;
+}
+
+p{
+color:#aaa;
+font-size:20px;
+max-width:700px;
+margin:auto;
+}
+
+.buttons{
+margin-top:40px;
+}
+
+.btn{
+padding:15px 30px;
+border-radius:30px;
+text-decoration:none;
+margin:10px;
+display:inline-block;
+font-weight:bold;
+}
+
+.primary{
+background:linear-gradient(90deg,#7b5cff,#00d4ff);
+color:white;
+}
+
+.secondary{
+border:1px solid #555;
+color:white;
+}
+
+section{
+padding:100px 20px;
+}
+
+.steps{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:40px;
+margin-top:50px;
+}
+
+.step{
+max-width:250px;
+}
+
+footer{
+padding:40px;
+color:#777;
+font-size:14px;
 }
 </style>
-
 </head>
 
 <body>
 
-<img src="logo.png" alt="Logo">
+<header>
+<img src="image.png" alt="Logo">
+</header>
 
-<h1>$ound Together</h1>
-<p>Bringing people together through sound.</p>
+<section class="hero">
+<h1>Dein Sound. Professionell veredelt.</h1>
+<p>$oundTogether verbindet Artists mit Top-Producern für Mixing & Mastering.</p>
+
+<div class="buttons">
+<a href="#" class="btn primary">Producer finden</a>
+<a href="#" class="btn secondary">Für Producer</a>
+</div>
+</section>
+
+<section>
+<h2>So funktioniert’s</h2>
+
+<div class="steps">
+
+<div class="step">
+<h3>1</h3>
+<p>Song hochladen & passenden Producer wählen</p>
+</div>
+
+<div class="step">
+<h3>2</h3>
+<p>Mixing & Mastering mit Updates & Feedback</p>
+</div>
+
+<div class="step">
+<h3>3</h3>
+<p>Fertiger Track für Spotify & Release</p>
+</div>
+
+</div>
+</section>
+
+<footer>
+© 2026 $oundTogether
+</footer>
 
 </body>
 </html>
